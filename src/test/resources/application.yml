@@ -1,0 +1,15 @@
+# 需要与前面 Apollo 中创建项目的appId保持一致
+app:
+  #  id: sofa-config-apollo
+  id: aluohe
+  # 设置 apollo meta service 的地址，因为前面meta和config是部署在一起的，所以就是configService的地址
+apollo:
+  meta: http://192.168.2.38:8099
+  # 配置项
+sofa:
+  alipay:
+    glmapper:
+      name: glmapper
+spring:
+  main:
+    allow-bean-definition-overriding: true #当遇到同样名字的时候，是否允许覆盖注册

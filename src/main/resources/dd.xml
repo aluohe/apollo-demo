@@ -1,0 +1,43 @@
+<document>
+    <response id="response">
+        <head>
+            <Version>1.0.0</Version>
+            <Appid>2020040800000532</Appid>
+            <Function>1.0.0</Function>
+            <RespTime>202004107050348</RespTime>
+            <RespTimeZone>UTC+8</RespTimeZone>
+            <ReqMsgId>a52eb5224102434a830c22c34cdba73f</ReqMsgId>
+            <Reserve></Reserve>
+            <SignType>RSA</SignType>
+            <InputCharset>UTF-8</InputCharset>
+        </head>
+        <body>
+            <RespInfo>
+                <ResultStatus>S</ResultStatus>
+                <ResultCode>0000</ResultCode>
+                <ResultMsg>成功</ResultMsg>
+            </RespInfo>
+        </body>
+    </response>
+    <ds:Signature
+            xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:SignedInfo>
+            <ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod>
+            <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></ds:SignatureMethod>
+            <ds:Reference URI="">
+                <ds:Transforms>
+                    <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform>
+                </ds:Transforms>
+                <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+                <ds:DigestValue>ltGD/ycdwCAc+Y5pNs4aX9gRfW8=</ds:DigestValue>
+            </ds:Reference>
+        </ds:SignedInfo>
+        <ds:SignatureValue>
+            PJuliQ+4xIdNY8e7LY9t2lv8K+PIHGyN/W4DsH43jXs6Aof8MSwByLCPG+c0jmOWzSGquwei6N0m
+            bCOO2YDuPIsLxJbkelovVqQuJr397emde6rMWU0XQfNX2rMKTSUHP3+foBgHrFoZyczGsSYvu+pS
+            Et5WoKRWnp0XrTGLmDnWf+xouzabi5jI4jdGGbARCWQZVSssdC70wH29tRYbP/v2smhG5VSbssoo
+            oxVF75s8NG4fe4sZvjOAlIJMBhUWaxIK05ldv4DgSdoRy/pYtorbgzYuxDYIAjbgRCLHuAmez5nW
+            seO0913erz9l4gdjyPsaMBglgqajF/Bq8+J/PA==
+        </ds:SignatureValue>
+    </ds:Signature>
+</document>
